@@ -15,6 +15,7 @@ plot(datos$VD~datos$VI)
 
 # analisis previo grafico
 scatterplotMatrix(datos)
+chart.Correlation(datos)
 
 
 # Obtenci?n del Modelo para analisis de supuestos
